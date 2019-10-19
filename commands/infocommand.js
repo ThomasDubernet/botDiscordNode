@@ -21,7 +21,7 @@ module.exports.run = async (bot, message, args) => {
         .addField('!cat', 'Montre une image chat aléatoirement')
         .addField('!dog', 'Montre une image chien aléatoirement')
         .addField('!clear', 'Supprime un nombre de message')
-        .setFooter(`${bot.user.username} : *Développé par : __${message.guild.members.members.get('434183296339935235').user.username}__*`);
+        .setFooter(`${bot.user.username} : *Développé par : __Thomas Dubernet__*`);
 
     return message.channel.send(embed); 
 };

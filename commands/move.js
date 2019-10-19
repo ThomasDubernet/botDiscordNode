@@ -14,10 +14,6 @@ module.exports.run = async (bot, message, args) => {
         movedUser.setVoiceChannel(homeChannel);
     }
 
-    // message.member.setVoiceChannel('633442105317916687')
-    //         .then( connection => {
-    //             console.log("Success");
-    //         });
 
 };
 
